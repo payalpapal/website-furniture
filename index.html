@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Furniture Shop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Furniture Shop</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#products">Furniture</a>
+    <a href="#blogs">Blogs</a>
+    <a href="#contact">Contact</a>
+    <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h3>Welcome to Our Furniture Store</h3>
+  <p>High-quality furniture for your home and office.</p>
+</section>
+
+<section id="about" class="section">
+  <h2>About Us</h2>
+  <p>We provide stylish and comfortable furniture for every home. Quality and elegance are our priority.</p>
+  <div class="about-features">
+    <div class="feature-card">
+      <h3>Quality Products</h3>
+      <p>Durable and elegant furniture.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Fast Delivery</h3>
+      <p>Delivered safely to your home.</p>
+    </div>
+    <div class="feature-card">
+      <h3>24/7 Support</h3>
+      <p>We are always here to help.</p>
+    </div>
+  </div>
+</section>
+
+<section id="products" class="section">
+  <h2>Our Furniture Collection</h2>
+  <div class="products">
+    <div class="product-card">
+      <img src="https://static.vecteezy.com/system/resources/previews/042/681/826/non_2x/illustration-of-wooden-mahogany-side-chair-on-white-vector.jpg" alt="Chair">
+      <h3>Comfort Chair</h3>
+      <p>2500</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRAVITcI4nT5nkOx9IaL5bIU_1T1Z33GaTtqRAkzgY_EUh1WK57QX78uRjU4yShW2D9yjlZ8OSWbOmdDFfQtLqK_YmX9z8Mbk_dGrZ5eg2F3eCYvPBmYOj67w" alt="Table">
+      <h3>Wooden Table</h3>
+      <p>4500</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTH2jxAsySY69C1MDbiTRZdSiOTmHYj02EDxDi1onovALDUOE_7fziAjSTjfuK27hOudd_qQ6W5nvGUyV8Gl7Rkeo2_kQjiJsZRu8ATiUNF" alt="Sofa">
+      <h3>Modern Sofa</h3>
+      <p>8000</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+<section id="blogs" class="section">
+  <h2>Latest Blogs</h2>
+  <div class="blog-cards">
+    <div class="blog-card">
+      <img src="https://m.media-amazon.com/images/I/81emXJErqIL.jpg" alt="Blog 1">
+      <h3>5 Tips for Choosing the Perfect Sofa</h3>
+    </div>
+    <div class="blog-card">
+      <img src="https://blog.woodenstreet.com/images/data/image_upload/1738928411types-of-photo-frames.jpg" alt="Blog 2">
+      <h3>How to Decorate Your Living Room</h3>
+    </div>
+    <div class="blog-card">
+      <img src="https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-d849ade/www.decorilla.com/online-decorating/wp-content/uploads/2024/07/Curved-living-room-furniture-trends-2025-in-a-monochrome-layout-by-Decorilla-1024x683-345x230.jpg" alt="Blog 3">
+      <h3>Top Furniture Trends in 2025</h3>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <form id="contact-form">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+    <p id="form-success">Message sent successfully!</p>
+  </form>
+</section>
+
+
+<footer>
+  <p>&copy; 2025 Furniture Shop. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
